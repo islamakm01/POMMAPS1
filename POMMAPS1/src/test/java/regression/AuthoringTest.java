@@ -17,6 +17,6 @@ public class AuthoringTest extends SetUp{
     lp.loginValidUser();
     ap.clickAppsButton();
     ap.clickAuthoringApp();
-    Assert.assertEquals(AuthoringProcess.actualAuhoringText, AuthoringProcess.expectedAuhoringText);
+    Assert.assertEquals(ap.AuthoringGetText(), AuthoringProcess.expectedAuhoringText);
 }
 }
