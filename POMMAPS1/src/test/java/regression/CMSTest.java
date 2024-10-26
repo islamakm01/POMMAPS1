@@ -19,7 +19,7 @@ public class CMSTest extends SetUp{
     // Step 20
     cp.clickOpenSearchPanel();
     cp.selectEnTextModuleSearchType();
-    Assert.assertEquals(CMSProcess.actualEnTextModuleSearchTypeText, CMSProcess.expectedEnTextModuleSearchTypeText);
+    Assert.assertEquals(cp.getEnTextModuleSearchTypeText(), CMSProcess.expectedEnTextModuleSearchTypeText);
 
 
 }
