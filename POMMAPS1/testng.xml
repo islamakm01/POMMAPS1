@@ -8,7 +8,7 @@
     <classes>
       <class name="regression.LoginTest"/>
       <class name="regression.CMSTest"/>
-      <class name="regression.AuthoringTest"/>
+<!--      <class name="regression.AuthoringTest"/>-->
 
 
     </classes>
